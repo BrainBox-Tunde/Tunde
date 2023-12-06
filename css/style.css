@@ -33,11 +33,11 @@ header{
 	padding: 30px 18%;
 	transition: .3s;
 }
-.logo img{
+/*.logo img{
 	max-width: 100%;
 	width: 130px;
 	height: auto;
-}
+}*/
 .navlist{
 	display: flex;
 }
@@ -166,6 +166,7 @@ span{
 	max-width: 100%;
 	width: 540px;
 	height: auto;
+	border-radius: 50%;
 }
 header.sticky{
 	background: var(--bg-color);
@@ -342,10 +343,11 @@ header.sticky{
 .s img{
 	height: 65px;
 	width: 65px;
-	background: #f75124;
+	background: #fafaf6;
 	padding: 15px;
 	border-radius: 50%;
 	margin-bottom: 20px;
+	
 }
 .s.s-tow img{
 	background: #baebcd;
@@ -410,6 +412,18 @@ header.sticky{
 	font-size: var(--p-font);
 }
 
+.badges{
+	width: 100%;
+	padding: 20px;
+	display: flex;
+	flex-flow: column;
+	
+	align-items: center;
+}
+.badges > .item{
+	display: flex;
+	flex-flow: ;
+}
 .contact{
 	background: #8067f0eb;
 	width: 64%;
